@@ -18,4 +18,4 @@ outputs:
 
 run:
   path:  /bin/chmod
-  args: [+x ./sysmaster-web-git/build.sh]
+  args: [777, ./sysmaster-web-git/build.sh]
