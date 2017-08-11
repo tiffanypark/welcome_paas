@@ -1,5 +1,11 @@
 ---
 
+image_resource:
+  type: docker-image
+  source:
+    repository: alpine
+    tag: latest
+
 platform: linux
 
 inputs:
