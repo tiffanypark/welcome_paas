@@ -17,4 +17,4 @@ outputs:
 
 run:
   path:  mvn
-  args: [["-f", "sysmaster-web-git/pom.xml", "package"]
+  args: ["-f", "sysmaster-web-git/pom.xml", "package"]
