@@ -3,4 +3,4 @@ applications:
 - name: my-app
   memory: 512M
   host: my-host
-  path:  target/welcome-cf.war
+  path: ./target/welcome-cf.war
