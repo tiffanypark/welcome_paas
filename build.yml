@@ -18,4 +18,4 @@ outputs:
 
 run:
   path: /bin/sh
-  args: [./sysmaster-web-git/build.sh]
+  args: [/sysmaster-web-git/build.sh]
