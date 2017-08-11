@@ -2,24 +2,10 @@
 
 platform: linux
 
-image_resource:
-  type: docker-image
-  source:
-    repository: openjdk
-    tag: '8-jdk-alpine'
-
 inputs:
   - name: sysmaster-web-git
-
-
-outputs:
-  - name: build-output
-
-
+  
 run:
   path:  /bin/chmod
   args: [777, ./sysmaster-web-git/build.sh]
-  
-run:
-  path: sysmaster-web-git/build.sh
   
