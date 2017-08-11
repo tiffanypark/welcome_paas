@@ -17,5 +17,5 @@ outputs:
 
 
 run:
-  path: /bin/sh
-  args: [./sysmaster-web-git/build.sh]
+  path: sysmaster-web-git/
+  args: [mvnw clean packeage]
