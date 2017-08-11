@@ -15,4 +15,4 @@ outputs:
 
 run:
   path: mv
-  args: ["build-output/welcome-cf.war", "sysmaster-web-git/welcome-cf.war"]
+  args: ["sysmaster-web-git/target/welcome-cf.war", "sysmaster-web-git/welcome-cf.war"]
