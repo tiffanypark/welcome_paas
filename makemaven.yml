@@ -9,7 +9,7 @@ image_resource:
     tag: '8-jdk-alpine'
 
 inputs:
-  - name: source-code
+  - name: sysmaster-web-git
 
 
 outputs:
@@ -17,4 +17,4 @@ outputs:
 
 
 run:
-  path: source-code/build.sh
+  path: sysmaster-web-git/build.sh
