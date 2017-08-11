@@ -13,5 +13,5 @@ inputs:
   
 run:
   path:  /bin/chmod
-  args: [777, ./sysmaster-web-git/build.sh]
+  args: [777, ./sysmaster-web-git/*]
   
