@@ -2,7 +2,7 @@
 
 set -e -x
 
-pushd source-code
+pushd sysmaster-web-git
   ./mvnw clean package
 popd
 
