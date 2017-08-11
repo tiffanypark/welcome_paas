@@ -10,7 +10,7 @@ pushd sysmaster-web-git
 
   ./mvnw clean package
 
-popd
+popd 
 
 
 
