@@ -1,17 +1,11 @@
 #!/bin/bash
 
-
-
 set -e -x
-
-
 
 pushd sysmaster-web-git
 
-  ./mvnw clean package
+./mvnw clean package
 
-popd 
+popd
 
-
-
-cp sysmaster-web-git/target/concourse-maven-cf-simple-0.0.1-SNAPSHOT.jar  build-output/.
+cp sysmaster-web-git/target/concourse-maven-cf-simple-0.0.1-SNAPSHOT.jar build-output/.
