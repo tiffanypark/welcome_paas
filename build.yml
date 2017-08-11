@@ -5,8 +5,8 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: openjdk
-    tag: '8-jdk-alpine'
+    repository: maven
+    tag: latest
 
 inputs:
   - name: sysmaster-web-git
@@ -15,7 +15,6 @@ inputs:
 outputs:
   - name: build-output
 
-
 run:
-  path: ./sysmaster-web-git/mvnw
-  args: [clean,packeage]
+  path:  mvn
+  args: [["-f", "sysmaster-web-git/pom.xml", "package"]
