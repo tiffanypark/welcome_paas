@@ -1,0 +1,18 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: nitram509/alpine-oraclejdk8-maven-cmake-gcc
+    tag: latest
+
+inputs:
+  - name: sysmaster-web-git
+
+#outputs:
+#  - name: jar-file
+#    path: sysmaster-web-git/
+
+run:
+  path: mvn
+  args: ["-f", "sysmaster-web-git/pom.xml", "-DskipTests=true", "package"]
