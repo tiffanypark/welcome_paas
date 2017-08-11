@@ -17,5 +17,5 @@ outputs:
 
 
 run:
-  path: sysmaster-web-git/mvnw
+  path: ./sysmaster-web-git/mvnw
   args: [clean,packeage]
